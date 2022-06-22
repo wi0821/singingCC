@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initaial-scale=1.0">
+	<meta charset="utf-8">
+	<title>烟花秀</title>
+	<link rel="stylesheet" type="text/css" href="fireworks.css">
+</head>
+
+<body>
+
+	<section class="banner" id="sec">
+		<header>
+			<h2>
+				<span>欣</span>
+				<span>颖</span>
+				<span>周</span>
+				<span>年</span>
+				<span>快</span>
+				<span>乐</span>
+			</h2>
+			<div id="toggle" onclick="toggle()"></div>
+		</header>
+	</section>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html">
+					<span>首　页</span>
+					<span>首　页</span>
+				</a>
+			</li>
+
+			<li>
+				<a href="cardshows.html">
+					<span>一封信</span>
+					<span>一封信</span>
+				</a>
+			</li>
+
+			<li>
+				<a href="fireworks.html">
+					<span>烟花秀</span>
+					<span>烟花秀</span>
+				</a>
+			</li>
+
+			<li>
+				<a href="song.html">
+					<span>翻唱歌曲</span>
+					<span>翻唱歌曲</span>
+				</a>
+			</li>
+
+			<li>
+				<a href="about.html">
+					<span>关于我们</span>
+					<span>关于我们</span>
+				</a>
+			</li>
+
+			<li>
+				<a href="contact.html">
+					<span>合作邀约</span>
+					<span>合作邀约</span>
+				</a>
+			</li>
+
+		</ul>
+	</div>
+
+	<audio src="./assets/audio/fireworks.mp3" autoplay="true" loop="true" autobuffer></audio>
+
+	<script type="text/javascript">
+		function toggle()
+		{
+			var sec = document.getElementById('sec');
+			var nav = document.getElementById('navigation');
+			sec.classList.toggle('active')
+			nav.classList.toggle('active')
+		}
+	</script>
+
+	<script src="jquery-3.5.1.js"></script>
+
+	<script type="text/javascript" src="jquery.fireworks.js"></script>
+
+	<script type="text/javascript">
+		$('section').fireworks({
+			  opacity: 1,
+			  width: '100%',
+			  height: '100%'
+			});
+	</script>
+
+</body>
+
+</html>

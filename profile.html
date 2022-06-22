@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Wilson">
+    <meta name="Keywords" content="广东大漂亮,欣颖,广东正妹,广东女神,妹子,可爱,软萌,仙女,廣東大漂亮,如新中国,专业顾问,如新顾问">
+    <meta name="Description" content="有如新最美丽专业顾问称号,并功协助客户甩肉10公斤、全国最美仙女奖以及全广东歌手的最后希望...">
+    <title>歌手档案</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+    <link rel="stylesheet" href="./swiper.css" />
+    <link rel="stylesheet" href="./assets/style/all.css">
+  	<link rel="icon" href="./assets/images/web-logo.ico" type="image/x-icon">
+  </head>
+
+  <body>
+    <section class="banner" id="sec">
+      <header>
+        <a href="homepage.html" class="logo">
+          <img src="./assets/images/logo.png">
+        </a>
+        <div id="toggle" onclick="toggle()"></div>
+      </header>
+
+
+<div class="swiper-container profile-container">
+	<div class="swiper-wrapper">
+
+		<div class="swiper-slide profile-slide">
+			<div class="card profile-card">
+				<div class="sliderImage">
+					<img src="./assets/images/cc.jpg">
+				</div>
+				<div class="content profile-content">
+					<h3>广东大漂亮</h3>
+					<p>现任如新专业顾问<br>知名专业网红主播<br>荣获全国最美仙女称号<br>人称清远大正妹</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="swiper-slide profile-slide">
+			<div class="card profile-card">
+				<div class="sliderImage">
+					<img src="./assets/images/rank1.jpg">
+				</div>
+				<div class="content profile-content">
+					<h3>高光时刻</h3>
+					<p>凡事都能全力以赴<br><strong>做到最好</strong></p>
+				</div>
+			</div>
+		</div>
+
+		<div class="swiper-slide profile-slide">
+			<div class="card profile-card">
+				<div class="sliderImage">
+					<img src="./assets/images/rank2.jpg">
+				</div>
+				<div class="content profile-content">
+					<h3>浪漫烟花</h3>
+					<p>浪漫到位不马虎<br><strong>总能意带来外惊喜</strong></p>
+				</div>
+			</div>
+		</div>
+
+		<div class="swiper-slide profile-slide">
+			<div class="card profile-card">
+				<div class="sliderImage">
+					<img src="./assets/images/rank3.jpg">
+				</div>
+				<div class="content profile-content">
+					<h3>捧你成星</h3>
+					<p>曾于9/25荣获<br><strong>捧你成星</strong></p>
+				</div>
+			</div>
+		</div>
+
+		<div class="swiper-slide profile-slide">
+			<div class="card profile-card">
+				<div class="sliderImage">
+					<img src="./assets/images/weixin_qr.jpg">
+				</div>
+				<div class="content profile-content">
+					<h3>立即添加</h3>
+					<p>打开微信扫码<strong>添加您的专属NUSKIN顾问</strong><br>提供全方位专业咨询、介绍、报价</p>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+    </section>
+
+    <div id="navigation">
+      <ul>
+        <li>
+          <a href="homepage.html">
+            <span>首　页</span>
+            <span>首　页</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="cardshows.html" target="_blank">
+            <span>一封信</span>
+            <span>一封信</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="fireworks.html" target="_blank">
+            <span>烟花秀</span>
+            <span>烟花秀</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="song.html" target="_blank">
+            <span>翻唱歌曲</span>
+            <span>翻唱歌曲</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="about.html" target="_blank">
+            <span>关于我们</span>
+            <span>关于我们</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="contact.html" target="_blank">
+            <span>合作邀约</span>
+            <span>合作邀约</span>
+          </a>
+        </li>
+
+      </ul>
+    </div>
+
+    <script src="./assets/js/all.js"></script>
+    <script type="text/javascript">
+      var swiper = new Swiper('.swiper-container', {
+        effect: 'coverflow',
+        grabCursor: true,
+        loop: true, //loop = true
+        centeredSlides: true,
+        slidesPerView: 'auto',
+        coverflowEffect: {
+        rotate: 30,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+        },
+        pagination: {
+        el: '.swiper-pagination',
+        },
+      });
+    </script>
+    <script type="text/javascript">
+      function toggle(){
+        var sec = document.getElementById('sec');
+        var nav = document.getElementById('navigation');
+        sec.classList.toggle('active')
+        nav.classList.toggle('active')
+      }
+    </script>
+  </body>
+
+</html>
