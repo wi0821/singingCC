@@ -35,3 +35,7 @@ h2{
     padding: 0;
     }
 }
+
+.contact_container .row100 .inputBox input, .contact_container .row100 .inputBox.textarea textarea {
+    color:#fff
+}
