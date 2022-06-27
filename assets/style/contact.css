@@ -1,0 +1,37 @@
+.banner {
+    justify-content: center;
+}
+h2{
+    font-weight: 700;
+    font-size: 2rem;
+}
+.contact_container .row100 .inputBox
+{
+    font-weight: 600;
+}
+
+.contact_container .row100 .inputBox .line
+{
+    background: linear-gradient(90deg,#db3b9b,#a87ebe,#9089b5,#738ebb,#37a1cd,#07afde);
+}
+
+#contact-btn
+{
+    background: linear-gradient(90deg,#db3b9b,#a87ebe,#9089b5,#738ebb,#37a1cd,#07afde);
+    color: #fff;
+    transition: .8s;
+    opacity: .6;
+}
+
+#contact-btn:hover {
+    background: linear-gradient(90deg, #07afde, #37a1cd, #738ebb, #9089b5, #a87ebe, #db3b9b);
+    opacity: 1;
+}
+
+
+@media (max-width: 767px) {
+    .contact_container {
+    width: 120%;
+    padding: 0;
+    }
+}
