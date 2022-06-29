@@ -29,13 +29,14 @@ h2{
 }
 
 
+.contact_container .row100 .inputBox input, .contact_container .row100 .inputBox.textarea textarea {
+    color:#fff
+}
+
+
 @media (max-width: 767px) {
     .contact_container {
     width: 120%;
     padding: 0;
     }
-}
-
-.contact_container .row100 .inputBox input, .contact_container .row100 .inputBox.textarea textarea {
-    color:#fff
 }
